@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>My first webpage</h1>
+        <p>My first paragraph</p>
+
+        <p id="demo"></p>
+
+        <button onclick="showAlert()">Click Me!</button>
+        <button onclick="window.print()">Print this page</button>
+
+        <p id="test"></p>
+
+        <script>
+            document.getElementById("demo").innerHTML = 7 + 6
+
+            function showAlert(){ //curly brackets are needed to define blocks fo code for functions, loops, etc.
+                window.alert(5+6)
+
+            }
+
+            console.log(10+10)
+
+
+            let a,b,c
+            a=1
+            b=2
+            c=a+b
+
+            //When separated by semicolons, multiple statements canbe written on one line
+
+            document.getElementById("test").innerHTML = 
+            "The value of c is " + c + "."
+
+        </script>
+    </body>
+</html>
